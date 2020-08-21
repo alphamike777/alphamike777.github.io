@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Discussion</title>
+        <meta charset="UTF-8">
+        <style>
+            body{
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            table, th, td {
+                border: 1px solid black;
+            }
+            .header{
+                padding: 10px;
+                text-align: center;
+                background:#a28089
+            }
+            .header h1{
+                font-size: 30px;
+            }
+            .navbar {
+            overflow: hidden; /* Hide overflow */
+            background-color: #333; /* Dark background color */
+            }
+
+            /* Style the navigation bar links */
+            .navbar a {
+            float: left; /* Make sure that the links stay side-by-side */
+            display: block; /* Change the display to block, for responsive reasons (see below) */
+            color: white; /* White text color */
+            text-align: center; /* Center the text */
+            padding: 14px 20px; /* Add some padding */
+            text-decoration: none; /* Remove underline */
+            }
+
+            /* Right-aligned link */
+            .navbar a.right {
+            float: right; /* Float a link to the right */
+            }
+
+            /* Change color on hover/mouse-over */
+            .navbar a:hover {
+            background-color: #ddd; /* Grey background color */
+            color: black; /* Black text color */
+            }
+
+            * {
+            box-sizing: border-box;
+            }
+
+            /* Column container */
+            .row { 
+            display: flex;
+            flex-wrap: wrap;
+            }
+
+            /* Create two unequal columns that sits next to each other */
+            /* Sidebar/left column */
+            
+            .side {
+  
+            flex: 70%; /* Set the width of the main content */
+            background-color: white; /* White background color */
+            padding: 20px; /* Some padding */
+            }
+
+            /* Main column */
+            .main { 
+            flex: 30%; /* Set the width of the sidebar */
+            background-color: #f1f1f1; /* Grey background color */
+            padding: 20px; /* Some padding */
+            }
+            .footer {
+            padding: 1px; /* Some padding */
+            text-align: center; /* Center text*/
+            background: #ddd; /* Grey background */
+            
+}
+}
+            
+
+    </style>
+    </head>
+    <body>
+        <div class="header">
+        <h1>Chesscuss</h1>
+        <p>Put it on and discuss</p>
+        </div>
+        <div class="navbar">
+            <a href="#">Home</a>
+            <a href="frames.html">Frames</a>
+            <a href="#">News</a>
+            <a href="#" class="right">Contact</a>
+        </div>
+        <div class="row">
+            <div class="side">
+                <h1>Chess Players India</h1>
+                <h3>Top 5 Players</h3>
+                <ol>
+                <li>Anand V</li>
+                <li>Vidit G</li>
+                <li>Harikrishna P</li>
+                <li>Adhiban B</li>
+                <li>Sasikiran K</li>
+              </ol>
+              <hr>
+              <table style="width:100%">
+                <caption>Table by rank</caption>
+                <tr>
+                  <th>Name</th>
+                  <th>Score</th> 
+                  <th>Age</th>
+                </tr>
+                <tr>
+                  <td>Anand V</td>
+                  <td>2753</td> 
+                  <td>50</td>
+                </tr>
+                <tr>
+                  <td>Vidit G</td>
+                  <td>2736</td> 
+                  <td>25</td>
+                </tr>
+                <tr>
+                    <td>Harikrishna P</td>
+                    <td>2726</td>
+                    <td>34</td>
+                </tr>
+                <tr>
+                    <td>Adhiban B</td>
+                    <td>2659</td>
+                    <td>28</td>
+                </tr>
+                <tr>
+                    <td>Sasikaran K</td>
+                    <td>2647</td>
+                    <td>39</td>
+                </tr>
+              </table>
+            <hr>
+              <div>
+                <p><strong>Strong is used to indicate strong importance.</strong></p>
+                <p><em>This text has added emphasis.</em></p>
+                <p>The <b>b element</b> is stylistically different text from normal text, without any special importance.</p>
+                <p>The <i>i element</i> is text that is offset from the normal text.</p>
+                <p>The <u>u element</u> is text with an unarticulated, though explicitly rendered, non-textual annotation.</p>
+                <p><del>This text is deleted</del> and <ins>This text is inserted</ins>.</p>
+                <p><s>This text has a strikethrough</s>.</p>
+                <p>Superscript<sup>®</sup>.</p>
+                <p>Subscript for things like H<sub>2</sub>O.</p>
+                <p><small>This small text is small for for fine print, etc.</small></p>
+              </div>
+              <hr>
+              <div>
+                <header><h2>Images</h2></header>
+                <h3>Vishy</h3>
+                <p><img src="vishy.jpeg" alt="Image alt text" width="400" height="400"></p>
+                <h3>Vidit</h3>
+                <p><img src="vd.jpg" alt="Image alt text" width="400" height="400"></p>
+                </div>
+                
+
+            </div>
+            <div class="main">
+                <ul>
+                    <li>
+                      <a href="#text">Matches</a>
+                      <ul>
+                        <li><a href="#text__headings">Live 1 v 1</a></li>
+                        <li><a href="#text__paragraphs">Live Blitz</a></li>
+                        <li><a href="#text__blockquotes">Olympiad Tournament</a></li>
+                        <li><a href="#text__lists">Chess daily</a></li>
+                        <li><a href="#text__hr">Quick Puzzle</a></li>
+                      </ul>
+                    </li>
+            </div>
+          </div>
+          <div class="footer">
+            <h2></h2>
+          </div>
+    </body>
+</html>
