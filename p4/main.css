@@ -1,0 +1,107 @@
+
+			    .col-lg-3{
+                    margin:30px !important;
+                }
+                .container {
+                    padding: 80px 120px;
+                }
+                .navbar{
+                    font-family: Montserrat, sans-serif;
+                    background-color: red;
+                    border: 0;
+
+                    margin-bottom: 0;
+                    letter-spacing: 4px;
+                }
+                
+                .navbar li a, .navbar .navbar-brand { 
+                    color: black !important;
+                }
+                .navbar li a:hover {
+                    color: rgba(3, 107, 243, 0.76) !important;
+                }
+                .navbar li.active a {
+                    color: #fff !important;
+                    background-color: #29292c !important;
+                }
+                .navbar{
+                    border-color: transparent;
+                }
+                .carousel-inner img {
+                    
+                    width: 100%;
+                    margin: auto;
+                    height: 1920px;
+                    width: 500px;
+                }
+                .open .dropdown-toggle {
+                    color: #fff;
+                    background-color: #555 !important;
+                }
+                .dropdown-menu li a {
+                    color: #000 !important;
+                }
+                .dropdown-menu li a:hover {
+                    background-color: red !important;
+                }
+                @media screen and (max-width: 1000px)
+                {
+                    .nav-item dropdown{
+                        color: black;
+                    }
+                    h1{
+                        text-align: center;
+                    }
+                }
+                .btn {
+                    padding: 10px 20px;
+                    background-color: #333;
+                    color: #f1f1f1;
+                    border-radius: 0;
+                    transition: .2s;
+                }
+                h3, h4 {
+                    margin: 10px 0 30px 0;
+                    letter-spacing: 10px;      
+                    font-size: 30px;
+                    color: #111;
+                }
+                p{
+                    font-family: 'Times New Roman', Times, serif;
+                    font-size: 20px;
+                }
+                #end{
+                    background-color: #2d2d30;
+                    color: #f5f5f5;
+                    padding: 32px;
+                    margin-bottom: 0;
+                    width: 100% !important;
+                }
+                #end a {
+                    color: #f5f5f5;
+                }
+                #end a:hover {
+                    color: rgb(50, 200, 226);
+                    text-decoration: none;
+                }
+                @media (max-width:600px)
+                {
+                    p{
+                        font-size: 15px;
+                        font-style: justify;
+                    }
+                    .col-sm-4, .col-xs-4{
+                        width: 100%;
+                        text-align: center;
+                    }
+                    .img-circle person{
+                        border-image: 2px;
+                    }
+                    #contact{
+                        padding: 15px;
+                    }
+                }
+                #contact{
+                    padding: 20px;
+                }
+            
